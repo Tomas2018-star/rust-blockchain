@@ -1,0 +1,30 @@
+[package]
+name = "rust_blockchain"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.3.1"
+anyhow = "1.0.71"
+chrono = "0.4.26"
+crossbeam-utils = "0.8.15"
+ctrlc = { version = "3.4.0", features = ["termination"] }
+dotenv = "0.15.0"
+dotenv_codegen = "0.15.0"
+env_logger = "0.10.0"
+ethereum-types = "0.14.1"
+futures = "0.3.28"
+hex = "0.4.3"
+isahc = "1.7.2"
+log = "0.4.18"
+rust-crypto = "0.2.36"
+serde = { version = "1.0.163", features = ["derive"] }
+serde_json = "1.0.96"
+thiserror = "1.0.40"
+
+[dev-dependencies]
+assert_cmd = "2.0.11"
+serial_test = "2.0.0"
+tasklist = "0.2.12"
