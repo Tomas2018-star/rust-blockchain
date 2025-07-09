@@ -13,7 +13,7 @@ pub struct Block {
     pub timestamp: i64,
     pub nonce: u64,
     pub previous_hash: BlockHash,
-    pub hash: BlockHash,
+    pub hash: BlockHash,//ok//
     pub transactions: Vec<Transaction>,
 }
 
